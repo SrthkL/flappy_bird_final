@@ -1,9 +1,9 @@
 //import 'dart:js_util';
 import 'dart:math';
-import 'package:flame/game.dart';
+//import 'package:flame/game.dart';
 import 'package:flame/components.dart';
 //import 'package:flame_audio/flame_audio.dart';
-import 'package:flappy_bird_final/game/assets.dart';
+//import 'package:flappy_bird_final/game/assets.dart';
 import 'package:flappy_bird_final/game/configuration.dart';
 import 'package:flappy_bird_final/game/flappy_bird_game.dart';
 import 'package:flappy_bird_final/game/pipes_position.dart';

@@ -42,6 +42,7 @@ class Bird extends SpriteGroupComponent<BirdMovement> with HasGameRef<FlappyBird
         )
     );
     current = BirdMovement.up;
+    //flame_audio.play(Assets.flying);
   }
   @override
   void onCollisionStart(

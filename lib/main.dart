@@ -1,4 +1,5 @@
 import 'package:flame/game.dart';
+import 'package:flame/src/game/overlay_manager.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/services.dart';
 import 'package:flappy_bird_final/screens/main_menu_screen.dart';
@@ -17,14 +18,14 @@ Future<void> main() async {
   runApp(
     GameWidget(
       game: game,
-      initialActiveOverlays: const[MainMenuScreen.id],
-      overlayBuilderMap: {
-        'mainMenu': (context, _) => MainMenuScreen(game: game),
-        'gameOver': (context, _) => GameOverScreen(game: game),
-      }
+      // initialActiveOverlays: const[MainMenuScreen.id],
+      // overlayBuilderMap: {
+      //   'mainMenu': (context, _) => MainMenuScreen(game: game),
+      //   'gameOver': (context, _) => GameOverScreen(game: game),
+      // },
       
       
-      )
+      ),
 
   );
 
